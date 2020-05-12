@@ -1,0 +1,31 @@
+{
+  "name": "@oliviermarechal/nestjs-hubspot",
+  "version": "1.0.0",
+  "description": "Injectable Hubspot client for your nestjs projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliviermarechal/nestjs-hubspot.git"
+  },
+  "keywords": [
+    "nestjs",
+    "hubspot",
+    "nestjs-hubspot"
+  ],
+  "author": "olivier maréchal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliviermarechal/nestjs-hubspot/issues"
+  },
+  "homepage": "https://github.com/oliviermarechal/nestjs-hubspot#readme",
+  "dependencies": {
+    "@nestjs/common": "^7.0.9",
+    "@nestjs/core": "^7.0.9",
+    "hubspot": "^2.3.12",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5"
+  }
+}

@@ -25,7 +25,9 @@ your nestjs project provides a Hubspot client to any class that injects it.
 ## Installation
 
 ```bash
-npm install --save nestjs-stripe
+npm install --save nestjs-hubspot
+// Or with yarn
+yarn add nestjs-hubspot
 ```
 
 ## Getting Started
