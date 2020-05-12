@@ -48,12 +48,12 @@ import { HubspotModule } from 'nestjs-hubspot';
 export class AppModule {}
 ```
 
-You can then inject the Stripe client into any of your injectables by using a
+You can then inject the Hubspot client into any of your injectables by using a
 custom decorator
 
 ```typescript
 import { Injectable } from '@nestjs/common';
-import { InjectHubspot } from 'nestjs-stripe';
+import { InjectHubspot } from 'nestjs-hubspot';
 import Hubspot from 'hubspot';
 
 @Injectable()
@@ -75,7 +75,7 @@ import { HubspotModule } from 'nestjs-hubspot';
     HubspotModule.forRootAsync({
       // inject: [ConfigService], with configService
       useFactory: (/* configService: ConfigService */) => ({
-        apiKey: process.env.API_KEY, // configService.get('stripe_key'),
+        apiKey: process.env.API_KEY, // configService.get('hubspot_api_key'),
       }),
     }),
   ],
@@ -85,15 +85,7 @@ export class AppModule {}
 
 ## Example
 
-In order to run the example run the following commands in your terminal. The
-expected output of the example is to show that the Stripe client was
-successfully injected into the `AppService`.
-
-```bash
-cd example
-yarn install
-yarn start
-```
+Coming soon...
 
 ## Contributing
 

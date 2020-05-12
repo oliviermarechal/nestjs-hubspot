@@ -1,5 +1,5 @@
 {
-  "name": "@oliviermarechal/nestjs-hubspot",
+  "name": "nestjs-hubspot",
   "version": "1.0.0",
   "description": "Injectable Hubspot client for your nestjs projects",
   "main": "index.js",
