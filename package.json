@@ -2,7 +2,7 @@
   "name": "nestjs-hubspot",
   "version": "1.0.1",
   "description": "Injectable Hubspot client for your nestjs projects",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
